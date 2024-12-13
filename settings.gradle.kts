@@ -7,7 +7,7 @@ pluginManagement {
         gradlePluginPortal()
     }
     plugins {
-        id("net.kyori.indra.git") version "3.0.1" // getting branch and commit info at compile time
+        id("net.kyori.indra.git") version "3.1.3" // getting branch and commit info at compile time
         id("net.kyori.indra") version "3.0.1" // multi-release jar for referencing Java 16 geyser api
         id("io.github.goooler.shadow") version "8.1.7"// shadowing dependencies
     }
