@@ -3,8 +3,6 @@ package dev.kejona.crossplatforms.spigot;
 import dev.kejona.crossplatforms.utils.ReflectionUtils;
 import org.bukkit.Bukkit;
 
-import com.sun.media.jfxmedia.logging.Logger;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.HashMap;
