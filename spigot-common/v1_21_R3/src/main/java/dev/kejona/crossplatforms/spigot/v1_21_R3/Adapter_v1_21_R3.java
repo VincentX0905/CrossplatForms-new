@@ -1,9 +1,9 @@
-package dev.kejona.crossplatforms.spigot.v1_21_R2;
+package dev.kejona.crossplatforms.spigot.v1_21_R3;
 
 import com.mojang.authlib.properties.Property;
 import dev.kejona.crossplatforms.spigot.v1_14_R1.Adapter_v1_14_R1;
 
-public class Adapter_v1_21_R2 extends Adapter_v1_14_R1 {
+public class Adapter_v1_21_R3 extends Adapter_v1_14_R1 {
 
     @Override
     public String propertyValue(Property property) {

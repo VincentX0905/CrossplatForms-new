@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
-    api(projects.spigotCommon.v121R2) {
+    api(projects.spigotCommon.v121R3) {
         attributes {
             // hack - need to *include* the newer implementations
             // but still need this module to target the oldest java version (8)
