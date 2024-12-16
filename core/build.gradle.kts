@@ -21,7 +21,7 @@ val java16Implementation: Configuration by configurations.getting {
 
 dependencies {
     testImplementation("org.geysermc.cumulus:cumulus:1.1.1-SNAPSHOT") // needed for testing button components
-    testImplementation("com.google.code.gson:gson:2.8.6") // needed for cumulus
+    testImplementation("com.google.code.gson:gson:2.11.0") // needed for cumulus
 
     // Nullability annotations. todo: move to something else
     testImplementation("com.google.code.findbugs:jsr305:3.0.2")
